@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela - Dragon Ball</title>
+
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 700px;
+            border-collapse: collapse;
+            margin: 50px auto;
+            text-align: center;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        th, td {
+            border: 2px solid black;
+            padding: 15px;
+        }
+
+        th {
+            background-color: orange;
+            color: white;
+            font-size: 20px;
+        }
+
+        tr:hover {
+            background-color: #ffe0b3;
+        }
+
+        td:nth-child(2) {
+            color: red;
+            font-weight: bold;
+        }
+
+        img {
+            width: 120px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Guerreiros Z</th>
+                <th>Vilões</th>
+                <th>Personagem</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Goku</td>
+                <td>Freeza</td>
+                <td>
+                    <img src="goku.jpg" alt="Goku">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Vegeta</td>
+                <td>Cell</td>
+                <td>
+                    <img src="vegeta.jpg" alt="Vegeta">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Gohan</td>
+                <td>Majin Boo</td>
+                <td>
+                    <img src="gohan.jpg" alt="Gohan">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
